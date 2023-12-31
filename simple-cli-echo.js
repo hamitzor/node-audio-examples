@@ -3,7 +3,7 @@
 // Echo app. It streams the audio from default input device directly
 // to default output device.
 
-// Usage: node examples/simple-cli-echo.mjs
+// Usage: node simple-cli-echo.mjs
 
 // Note: this script expects that there are default output and input device that
 // support 16-bit 48000 Hz playback. If that's not the case, you'll need to

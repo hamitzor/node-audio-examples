@@ -2,10 +2,10 @@
 
 // Playback app
 
-// Usage: node examples/playback-app.mjs [INPUT_FILE]
+// Usage: node playback-app.mjs [INPUT_FILE]
 
 // The INPUT_FILE is assumed to contain continuous raw 16-bit 48000 Hz PCM data.
-// node examples/recording-app.mjs can be used to create such file.
+// node recording-app.mjs can be used to create such file.
 
 // Note: this script expects that there is a default output device that
 // supports 16-bit 48000 Hz playback. If that's not the case, you'll need to

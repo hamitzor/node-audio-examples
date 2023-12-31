@@ -1,5 +1,16 @@
 'use strict'
 
+// Interactive echo app. It allows configuring the streams.
+
+// It streams the audio from default input device directly
+// to default output device.
+
+// Usage: node interactive-cli-echo.mjs
+
+// Note: this script expects that there are default output and input device that
+// support 16-bit 48000 Hz playback. If that's not the case, you'll need to
+// change `sampleRate` and `format` below.
+
 import inquirer from 'inquirer'
 import { createAudioReadStream, createAudioWriteStream, rtAudioVersion, PCMFormat, probeApis, probeDevices } from '@hamitzor/node-audio'
 import consoleClear from 'console-clear'
