@@ -1,7 +1,7 @@
 'use strict'
 
 // Echo app. It streams the audio from default input device directly
-// to the default output device.
+// to default output device.
 
 // Usage: node examples/simple-cli-echo.mjs
 
