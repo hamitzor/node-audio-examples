@@ -12,9 +12,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hamitzor/node-audio@npm:2.0.2":
-  version: 2.0.2
-  resolution: "@hamitzor/node-audio@npm:2.0.2::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40hamitzor%2Fnode-audio%2F2.0.2%2Ffa58463278bac4262a8899c257368740039cd097"
+"@hamitzor/node-audio@npm:2.0.4":
+  version: 2.0.4
+  resolution: "@hamitzor/node-audio@npm:2.0.4::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40hamitzor%2Fnode-audio%2F2.0.4%2F953f99a6d8daba8e5679d2784a88f2f435e2cf6b"
   dependencies:
     bindings: "npm:^1.5.0"
     cmake-js: "npm:^7.2.1"
@@ -22,7 +22,7 @@ __metadata:
     node-gyp: "npm:latest"
     prebuild: "npm:^12.1.0"
     prebuild-install: "npm:^7.1.1"
-  checksum: 6f85053500366de7e38ecab7a690811491830de4ca0af5892d53c3567d855251665bf2ada292a214f2bf2130150ce4721ebe6e8184ca13c1cf6a0a34b2783eff
+  checksum: dfa1769b979c2aa05eda1daba2c27dd2e68302a277281451866a84be9c3faf313989baeacd0ee226d34ca6047d97d8b26fca173526643b6c59374e6b2771f376
   languageName: node
   linkType: hard
 
@@ -2166,7 +2166,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "node-audio-examples@workspace:."
   dependencies:
-    "@hamitzor/node-audio": "npm:2.0.2"
+    "@hamitzor/node-audio": "npm:2.0.4"
     ansi: "npm:^0.3.1"
     console-clear: "npm:^1.1.1"
     inquirer: "npm:^9.2.12"

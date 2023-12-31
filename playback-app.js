@@ -87,7 +87,7 @@ console.log(`Sample rate\t\t${sampleRate} Hz`)
 console.log(`Frame size\t\t${frameSize}ms\n`)
 console.log(`Time\t\tRead\t\tMemory usage`)
 
-audioWriteStream.on('processed', () => {
+audioWriteStream.on('api:processed', () => {
   const time = audioWriteStream.time.toFixed(0)
   const bytesRead = (fileReadStream.bytesRead / 1024 / 1024).toFixed(1)
   const rss = (process.memoryUsage().rss / 1024 / 1024).toFixed(0)

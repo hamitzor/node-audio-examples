@@ -14,7 +14,7 @@
   "homepage": "https://github.com/hamitzor/node-audio-examples#readme",
   "packageManager": "yarn@4.0.2",
   "dependencies": {
-    "@hamitzor/node-audio": "2.0.2",
+    "@hamitzor/node-audio": "2.0.4",
     "ansi": "^0.3.1",
     "console-clear": "^1.1.1",
     "inquirer": "^9.2.12"
