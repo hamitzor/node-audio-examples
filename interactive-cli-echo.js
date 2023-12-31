@@ -9,7 +9,7 @@ import { readFileSync } from 'fs'
 import { dirname, resolve } from 'path'
 import { fileURLToPath } from 'url'
 
-const version = JSON.parse(readFileSync(resolve(dirname(fileURLToPath(import.meta.url)), '../package.json'))).version
+const version = JSON.parse(readFileSync(resolve(dirname(fileURLToPath(import.meta.url)), 'node_modules', '@hamitzor', 'node-audio', 'package.json'))).version
 
 const cursor = ansi(process.stdout)
 

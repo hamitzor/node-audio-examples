@@ -83,7 +83,7 @@ process.on('SIGINT', () => {
 
 // Print some info and statistics
 
-const version = JSON.parse(readFileSync(resolve(dirname(fileURLToPath(import.meta.url)), '../package.json'))).version
+const version = JSON.parse(readFileSync(resolve(dirname(fileURLToPath(import.meta.url)), 'node_modules', '@hamitzor', 'node-audio', 'package.json'))).version
 
 consoleClear()
 console.log(`Saving into ${filename}\n`)
