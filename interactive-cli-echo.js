@@ -1,7 +1,7 @@
 'use strict'
 
 import inquirer from 'inquirer'
-import { createAudioReadStream, createAudioWriteStream, rtAudioVersion, PCMFormat, probeApis, probeDevices } from '../dist/index.js'
+import { createAudioReadStream, createAudioWriteStream, rtAudioVersion, PCMFormat, probeApis, probeDevices } from '@hamitzor/node-audio'
 import consoleClear from 'console-clear'
 import ansi from 'ansi'
 import { Transform, pipeline, finished } from 'stream'

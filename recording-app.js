@@ -12,7 +12,7 @@
 // change `sampleRate` and `format` below.
 
 import { pipeline } from 'stream'
-import { createAudioReadStream, probeApis, probeDevices, rtAudioVersion } from '../dist/index.js'
+import { createAudioReadStream, probeApis, probeDevices, rtAudioVersion } from '@hamitzor/node-audio'
 import { createWriteStream, readFileSync } from 'fs'
 import consoleClear from 'console-clear'
 import { dirname, resolve } from 'path'

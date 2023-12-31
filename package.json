@@ -3,17 +3,18 @@
   "version": "1.6.0",
   "description": "Some examples demonstrating the quirks of @hamitzor/node-audio",
   "repository": {
-      "type": "git",
-      "url": "git+https://github.com/hamitzor/node-audio-examples.git"
+    "type": "git",
+    "url": "git+https://github.com/hamitzor/node-audio-examples.git"
   },
   "author": "Hamit Can Zor (thenrerise@gmail.com)",
   "license": "MIT",
   "bugs": {
-      "url": "https://github.com/hamitzor/node-audio-examples/issues"
+    "url": "https://github.com/hamitzor/node-audio-examples/issues"
   },
   "homepage": "https://github.com/hamitzor/node-audio-examples#readme",
   "packageManager": "yarn@4.0.2",
   "dependencies": {
+    "@hamitzor/node-audio": "2.0.1",
     "ansi": "^0.3.1",
     "console-clear": "^1.1.1",
     "inquirer": "^9.2.12"
